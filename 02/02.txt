@@ -1,0 +1,7 @@
+Mitos e verdades
+* vou ter que aprender tudo de novo: aprender as tipagens e algumas notações
+* vou precisar reescrever tudo para TS: pode adotar gradualmente .js + .TS
+* ja escrevo testes, não preciso disso: alguns casos os testes nao pegam algo
+* só funciona com POO: funciona com poo ou estruturada
+* verboso demais, precisa tipar tudo: nem sempre
+* só serve pra projeto grande: indepnde de tamanho

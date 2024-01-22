@@ -1,0 +1,26 @@
+* superset de JS
+* adicionar novas features ao JS
+* basicamente tipagem estatica
+* compila para JS
+* permite adoção gradual (.ts convive com .js)
+
+
+por que usar TS?
+* evita resultados inesperados
+function soma (a, b) {
+    return a + b
+}
+
+soma(1,2) // 3
+soma('1', '2') // 12
+
+* avisa de estiver fazendo algo errado
+console.log( 4 / []) // dividindo numero por array
+
+* funciona como "documentação"
+
+
+Desvantagens:
+* necessita ser compilado
+* aprendizado dos tipos e boas praticas
+* erros nem sempre sao claros ou sao muitos grandes
