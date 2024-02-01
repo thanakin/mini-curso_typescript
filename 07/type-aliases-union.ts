@@ -21,4 +21,4 @@ logDetails("123", "sapato")
 logInfo(123, "William")
 logInfo("123", "William")
 
-renderPlatform('ios')
+renderPlatform('Linux')
