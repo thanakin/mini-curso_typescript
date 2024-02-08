@@ -13,7 +13,7 @@ type DLCT = {
 type GameCollectionT = Game & DLCT & { content: boolean }
 
 // implements
-class CreateGameT implements GameCollectionT {}
+//class CreateGameT implements GameCollectionT {}
 
 // declarar função
 type getSimilarsT = (title: string) => void
@@ -39,37 +39,6 @@ type JQueryT = { a:string}
 
 // CONSISTENCIA
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Interfaces
 
 // definição
@@ -85,7 +54,7 @@ type DLCI = {
 interface GameCollectionI extends Game, DLCT {}
 
 // implements
-class CreateGameI implements GameCollectionI {}
+//class CreateGameI implements GameCollectionI {}
 
 // declarar função
 interface getSimilarsI {
