@@ -71,7 +71,7 @@ function delay(ms: number) {
     return (target: any, key: string, descriptor: PropertyDescriptor) => {
         const originalMethod = descriptor.value
 
-        descriptor.value = function (...args) {
+        descriptor.value = function (...args: any []) {
             console.log(`Esperando ${ms}`)
             setTimeout(() => {
                 originalMethod.apply(this, args) 
